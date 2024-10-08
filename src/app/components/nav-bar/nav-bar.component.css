@@ -1,0 +1,82 @@
+/* Estilos para la barra de navegación */
+.navbar {
+  background: linear-gradient(135deg, #4a90e2 0%, #b3cde0 100%); /* Color degradado más fresco */
+  border-radius: 0 0 25px 25px; /* Esquinas más redondeadas */
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.25); /* Sombra más pronunciada */
+  padding: 20px; /* Relleno ajustado */
+}
+
+/* Estilos de la marca */
+.navbar-brand {
+  font-size: 2.5rem; /* Aumento en tamaño */
+  font-family: 'Arial Black', Gadget, sans-serif; /* Fuente más audaz */
+  color: #fff; /* Color blanco para contraste */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ffe600; /* Color brillante al pasar el mouse */
+  transform: scale(1.1); /* Aumento en la escala */
+}
+
+/* Estilos de los enlaces de navegación */
+.nav-link {
+  padding: 12px 25px; /* Espaciado más amplio */
+  border-radius: 20px; /* Esquinas más redondeadas */
+  color: #fff; /* Color de texto blanco */
+  background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+  font-weight: bold; /* Texto en negrita */
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Fondo más claro al pasar el mouse */
+  color: #4a90e2; /* Color de texto más oscuro al pasar el mouse */
+}
+
+/* Efecto de sombra en los enlaces */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px; /* Aumento en altura de la línea */
+  background: #ffe600; /* Color de la línea */
+  left: 0;
+  bottom: -6px; /* Espaciado más amplio desde el texto */
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Estilos del botón "Cerrar Sesión" */
+.btn-outline-danger {
+  border-color: #e74c3c; /* Color del borde */
+  color: #e74c3c; /* Color del texto */
+  font-size: 1rem; /* Tamaño de fuente ajustado */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-danger:hover {
+  background-color: #e74c3c; /* Color de fondo al pasar el mouse */
+  color: white; /* Color del texto blanco */
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px; /* Espaciado reducido */
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem; /* Tamaño de fuente ajustado para móviles */
+  }
+
+  .nav-link {
+    padding: 10px 20px; /* Espaciado reducido */
+  }
+}

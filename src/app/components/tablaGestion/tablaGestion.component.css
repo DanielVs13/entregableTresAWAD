@@ -1,0 +1,110 @@
+/* Encabezados */
+h1 {
+  font-size: 3rem; /* Aumentado el tamaño del encabezado */
+  color: #1abc9c; /* Verde claro para un aspecto fresco */
+  font-weight: bold;
+  text-align: center; /* Centrado el texto */
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 2.2rem; /* Aumentado el tamaño del subtítulo */
+  color: #16a085; /* Verde más oscuro para subtítulos */
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Tabla */
+.table-hover tbody tr:hover {
+  background-color: #d5dbdb; /* Fondo gris claro al pasar el mouse */
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #95a5a6; /* Bordes grises más suaves */
+  padding: 15px; /* Aumentado el padding */
+}
+
+thead th {
+  text-align: center;
+  background-color: #27ae60; /* Verde más vibrante para el encabezado */
+  color: #fff;
+}
+
+tbody td {
+  vertical-align: middle;
+  text-align: center;
+  color: #34495e; /* Texto gris oscuro */
+}
+
+/* Estilos para los botones */
+.btn-outline-primary {
+  color: #27ae60;
+  border-color: #27ae60;
+  padding: 12px 25px; /* Aumentado el tamaño del botón */
+  border-radius: 10px; /* Esquinas más redondeadas */
+}
+
+.btn-outline-primary:hover {
+  background-color: #2ecc71; /* Verde más claro al pasar el mouse */
+  color: #fff;
+}
+
+.btn-outline-danger {
+  color: #e74c3c; /* Rojo más vibrante */
+  border-color: #e74c3c;
+}
+
+.btn-outline-danger:hover {
+  background-color: #c0392b; /* Rojo más oscuro */
+  color: #fff;
+}
+
+.btn-outline-secondary {
+  padding: 1rem 2rem; /* Aumentado el tamaño del botón secundario */
+  border-radius: 8px;
+  color: #7f8c8d; /* Gris neutral para botones secundarios */
+}
+
+.btn-outline-secondary:hover {
+  background-color: #bdc3c7;
+  color: #2c3e50;
+}
+
+/* Imagen miniatura */
+.img-thumbnail {
+  box-shadow: 0 6px 20px rgba(26, 188, 156, 0.25); /* Sombra más suave y difusa */
+  border-radius: 12px; /* Esquinas más redondeadas */
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.1); /* Ligero aumento */
+}
+
+/* Contenedores */
+.container {
+  background-color: #f9f9f9; /* Fondo más claro para contenedores */
+  padding: 40px; /* Aumentado el padding */
+  border-radius: 15px; /* Esquinas más redondeadas */
+  box-shadow: 0 8px 30px rgba(26, 188, 156, 0.2); /* Sombra ligera */
+}
+
+/* Enlaces */
+a {
+  color: #27ae60; /* Verde para enlaces */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2ecc71; /* Cambio a un verde más vibrante */
+}
+
+/* Estilo general */
+body {
+  font-family: 'Verdana', sans-serif; /* Cambiado a Verdana para un aspecto más moderno */
+  color: #34495e; /* Texto gris oscuro */
+  background-color: #ecf0f1; /* Fondo gris claro */
+  line-height: 1.6;
+}

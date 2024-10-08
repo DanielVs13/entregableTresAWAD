@@ -1,0 +1,39 @@
+{
+  "libros": [
+    {
+      "autor": "C.S. Lewis",
+      "libro": "El león, la bruja y el armario",
+      "publicacion": "1950",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQXzvZGd8N9EEXR9CEGmKpaxzdtjS2rPSpHg&usqp=CAU",
+      "id": 1
+    },
+    {
+      "autor": "C.S. Lewis",
+      "libro": "El príncipe Caspian",
+      "publicacion": "1951",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS58ShySMX1Y1EKFZwN_zzKZs-5T3WvsmuHRw&usqp=CAU",
+      "id": 2
+    },
+    {
+      "autor": "C.S. Lewis",
+      "libro": "La travesía del Viajero del Alba",
+      "publicacion": "1952",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR0J1UUl8JK1eM9h5TyTQ0ebFVf2DAK8dyMg&usqp=CAU",
+      "id": 3
+    },
+    {
+      "autor": "C.S. Lewis",
+      "libro": "La silla de plata",
+      "publicacion": "1953",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBHncl8eDqD0fqfCGRo3kCoL9Kw57uj2Y9ZQ&usqp=CAU",
+      "id": 4
+    },
+    {
+      "autor": "C.S. Lewis",
+      "libro": "La última batalla",
+      "publicacion": "1956",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbL1YNLV3nI3QhZ0GQzj7E0UKF-3KnFqCZUQ&usqp=CAU",
+      "id": 5
+    }
+  ]
+}

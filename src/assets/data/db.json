@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "email": "da@as.com",
+      "password": "$2a$10$M0Lqj3iXYABYXCOVUmol.eOw.ewQv2UxIXREBBWOH14m.BpnXO5hm",
+      "role": "admin",
+      "id": 1
+    }
+  ]
+}

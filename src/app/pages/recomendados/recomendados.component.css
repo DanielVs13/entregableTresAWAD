@@ -1,0 +1,53 @@
+/* Estilos para la sección header */
+.header {
+  background-color: #00c3ff;
+  border-radius: 0 0 50px 50px;
+}
+h1{
+  color: rgb(5, 5, 5);
+  text-align: center;
+}
+
+.book-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.book-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.book-card .card-title {
+  font-weight: bold;
+}
+
+.book-card .card-text {
+  font-size: 0.9rem;
+}
+
+.book-card .card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.img-fluid {
+  border-radius: 15px 15px 0 0;
+}
+
+.btn-custom {
+  background-color: #00c3ff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #00c3ff;
+}
+
+/* Estilos del footer */
+.footer {
+  font-size: 0.9rem;
+}

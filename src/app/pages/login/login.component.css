@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+  background-color: #e9ecef; /* Un gris más claro para un contraste más suave */
+}
+
+/* Estilo de las tarjetas */
+.card {
+  border-radius: 20px; /* Bordes más redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra más marcada */
+  overflow: hidden; /* Para asegurar que los bordes redondeados se mantengan */
+}
+
+.card-body {
+  padding: 40px; /* Más espacio de relleno */
+}
+
+/* Estilos de los botones */
+.btn-primary {
+  background-color: #007bff; /* Azul vibrante */
+  border: none;
+  border-radius: 12px; /* Bordes redondeados para los botones */
+  padding: 12px 25px; /* Tamaño de botón más grande */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Animaciones para el efecto hover */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+  transform: translateY(-2px); /* Levantar el botón ligeramente */
+}
+
+/* Estilo de enlaces */
+.link-primary {
+  text-decoration: none;
+  color: #007bff; /* Azul del enlace */
+  transition: color 0.3s ease; /* Transición para el efecto hover */
+}
+
+.link-primary:hover {
+  text-decoration: underline; /* Subrayado al pasar el mouse */
+  color: #0056b3; /* Cambiar a azul más oscuro al pasar el mouse */
+}
+
+/* Estilos de los inputs */
+.form-control {
+  border-radius: 12px; /* Bordes más redondeados */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15); /* Sombra más clara */
+  padding: 15px; /* Más espacio interno */
+  font-size: 1rem; /* Tamaño de fuente más grande */
+}
+
+/* Estilos de las etiquetas */
+.form-label {
+  font-weight: bold;
+  color: #343a40; /* Color gris oscuro */
+  font-size: 1.1rem; /* Tamaño de fuente de etiqueta más grande */
+}
+
+/* Media Queries para responsive */
+@media (max-width: 576px) {
+  .card {
+    width: 95%; /* Ancho ligeramente más amplio para móviles */
+    margin: auto; /* Centrar la tarjeta */
+  }
+
+  .btn-primary {
+    width: 100%; /* Botón de ancho completo en pantallas pequeñas */
+  }
+}
